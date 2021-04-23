@@ -22,7 +22,6 @@ export default function Home() {
         </p>
 
         <Button />
-        <Link href="/about">About</Link>
       </main>
 
       <footer className={styles.footer}>
