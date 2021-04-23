@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: brown;
+}
+
 * {
   box-sizing: border-box;
 }
