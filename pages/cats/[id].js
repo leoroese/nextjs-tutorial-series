@@ -1,6 +1,16 @@
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 
 const CatPage = () => {
-    return <h1>I am a Cat!</h1>
+    const router = useRouter()
+
+    
+    return (
+        <>
+        <button type="button" onClick={() => router.push('/messages/sup')}>Go To Sup</button>
+        <h1>I am a Cat!</h1>
+        </>
+    )
 }
 
 export const getStaticPaths = () => {

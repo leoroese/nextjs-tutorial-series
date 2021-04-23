@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Button from '../src/components/Button'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -22,6 +22,12 @@ export default function Home() {
         </p>
 
         <Button />
+        <Image
+          src="/me.png"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
       </main>
 
       <footer className={styles.footer}>
