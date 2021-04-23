@@ -11,4 +11,11 @@ const About = () => {
     )
 }
 
+export const getStaticProps = (context) => {
+    return { 
+        props: {},
+        revalidate: 10 
+    }
+}
+
 export default About;
