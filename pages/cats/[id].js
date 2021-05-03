@@ -24,6 +24,7 @@ export const getStaticPaths = () => {
 }
 
 export const getStaticProps = (context) => {
+    console.log('env message', process.env.MESSAGE)
     return { props: {} }
 }
 

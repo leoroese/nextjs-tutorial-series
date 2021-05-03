@@ -3,7 +3,9 @@ import Button from '../src/components/Button'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 
+
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_DEVMESSAGE)
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +25,7 @@ export default function Home() {
 
         <Button />
         <Image
-          src="/me.png"
+          src="/mypicture.png"
           alt="Picture of the author"
           width={500}
           height={500}
