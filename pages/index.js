@@ -5,7 +5,6 @@ import Image from 'next/image'
 
 
 export default function Home() {
-  console.log(process.env.NEXT_PUBLIC_DEVMESSAGE)
   return (
     <div className={styles.container}>
       <Head>
